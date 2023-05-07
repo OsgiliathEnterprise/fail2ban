@@ -30,8 +30,6 @@ platforms:
 #      - SYS_ADMIN
 #      - CAP_SYS_TIME
     # pre_build_image: true
-    groups:
-      - ipaservers
 provisioner:
   name: ansible
 verifier:

@@ -5,3 +5,6 @@
   ansible.builtin.import_tasks: requirements.yml
   when:
     - standalone_role
+
+- name: SSH hardening
+  ansible.builtin.import_tasks: ssh.yml

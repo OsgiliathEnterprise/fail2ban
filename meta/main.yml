@@ -1,7 +1,7 @@
 galaxy_info:
-  role_name: freeipa_server
+  role_name: fail2ban
   author: OsgiliathEnterprise
-  description: Wrapper role around freeipa-server role
+  description: Wrapper role on top of robertdebock fail2ban, hardening some more sshd features
   company: Osgiliath
   namespace: tcharl
   # If the issue tracker for your role is not on github, uncomment the

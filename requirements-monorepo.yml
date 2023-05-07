@@ -5,4 +5,3 @@ roles:
   - name: robertdebock.core_dependencies
   - name: robertdebock.fail2ban
   - name: robertdebock.epel
-  - name: geerlingguy.ntp
