@@ -1,4 +1,4 @@
-Ansible SecureHost
+Ansible Fail2Ban
 =========
 
 * Galaxy: [![Ansible Galaxy](https://img.shields.io/badge/galaxy-tcharl.fail2ban-660198.svg?style=flat)](https://galaxy.ansible.com/tcharl/fail2ban)
