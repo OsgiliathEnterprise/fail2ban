@@ -10,8 +10,7 @@
     name: robertdebock.bootstrap
   become: True
 
-- name: Requirements | import fail2ban role # use include to avoid handler issue
-  ansible.builtin.include_role:
+- name: Requirements | import fail2ban role
+  ansible.builtin.import_role:
     name: robertdebock.fail2ban
-  vars:
-    ansible_become: True
+  become: True
