@@ -18,3 +18,4 @@ license:
 tags:
   - "fail2ban"
   - "sshd"
+  - "linux"

@@ -14,4 +14,4 @@
   ansible.builtin.import_role:
     name: robertdebock.fail2ban
   become: True
-  ignore_errors: True # handler error
+  failed_when: False
