@@ -1,0 +1,7 @@
+---
+- name: Prepare
+  hosts: all
+  tasks:
+    - include_role:
+        name: tcharl.fail2ban
+        tasks_from: requirements.yml

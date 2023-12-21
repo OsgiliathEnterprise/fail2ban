@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    standalone_role: False
+  roles:
+    - role: tcharl.fail2ban
