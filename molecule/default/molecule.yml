@@ -3,12 +3,12 @@ dependency:
   name: galaxy
   enabled: ${DEPENDENCY_ENABLED:-True}
   options:
-    role-file: ${REQUIREMENTS_PATH:-requirements-standalone.yml}
+    role-file: ${REQUIREMENTS_PATH:-requirements.yml}
     requirements-file: requirements-collections.yml
 driver:
   name: podman
 platforms:
-  - name: idm.osgiliath.test
+  - name: fail2ban.osgiliath.test
     image: fedora:38
     # image: ubi9/ubi-init:latest
     dockerfile: ../common/Dockerfile.j2
