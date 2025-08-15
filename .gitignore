@@ -2,3 +2,5 @@
 **/*__pychache__*
 .cache
 build
+.poetry
+.tox
