@@ -6,12 +6,12 @@
   become: True
 
 - name: Requirements | import bootstrap role
-  ansible.builtin.import_role:
+  ansible.builtin.include_role:
     name: robertdebock.bootstrap
-  become: True
+  vars:
+    bootstrap_become: true
 
 - name: Requirements | import fail2ban role
   ansible.builtin.import_role:
     name: robertdebock.fail2ban
   become: True
-  failed_when: False
